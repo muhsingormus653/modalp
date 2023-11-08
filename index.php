@@ -8,14 +8,10 @@
   <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    .modal-dialog {
-      max-width: 90%; /* Modal penceresinin en fazla genişliği */
-    }
-
-    @media (max-width: 767px) {
-      .modal-content {
-        padding: 15px; /* Mobil cihazlarda içerik etrafındaki boşluğu artırır */
-      }
+    .modal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   </style>
 </head>
@@ -44,9 +40,9 @@
   </div>
 </div>
 <!-- partial -->
-<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js'></script>
-<script src="./script.js"></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js'></script>
+  <script src="./script.js"></script>
 </body>
 </html>
