@@ -13,6 +13,11 @@
       align-items: center;
       justify-content: center;
     }
+    @media (max-width: 768px) {
+  .modal-dialog {
+    width: 90%;
+  }
+}
   </style>
 </head>
 <body>
