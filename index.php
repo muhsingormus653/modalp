@@ -38,7 +38,7 @@
         <div class="input-group">
           <input type="checkbox" id="remember"> Do not show again
         </div>
-        <button type="button" class="btn btn-default" data-dismiss="modal">OKUDUM</button>
+        <center><button type="button" class="btn btn-info">OKUDUM</button></center>
       </div>
     </div>
 
