@@ -29,15 +29,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <center><h4 class="modal-title">Karayolları Genel Müdürlüğü</h4></center>
       </div>
       <div class="modal-body">
         <p>Some text in the modal.</p>
       </div>
       <div class="modal-footer">
-        <div class="input-group">
-          <input type="checkbox" id="remember"> Do not show again
-        </div>
+
         <center><button type="button" class="btn btn-info">OKUDUM</button></center>
       </div>
     </div>
